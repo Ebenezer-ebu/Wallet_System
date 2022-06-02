@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { User } from "../models/user_wallet";
 import { Wallet } from "../models/wallet";
-import { Product } from "../models/product";
 import { hashPassword, verifyPassword } from "../utils/bcrypt";
 import { generateToken } from "../middlewares/auth";
 
